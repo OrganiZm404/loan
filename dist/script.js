@@ -5288,6 +5288,7 @@ function () {
       var _this = this;
 
       this.checkMailInputs();
+      this.initMask();
       this.forms.forEach(function (item) {
         item.addEventListener('submit', function (e) {
           e.preventDefault();
